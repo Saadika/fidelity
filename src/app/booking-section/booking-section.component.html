@@ -1,0 +1,109 @@
+<section>
+  <div class="booking-container col-md-7">
+
+    <mat-tab-group>
+        <mat-tab>
+            <ng-template mat-tab-label>
+            <mat-icon class="example-tab-icon"><i class="fas fa-plane"></i></mat-icon>
+            flights
+            </ng-template>
+            <div id="flights" class="tabContent">
+                    <div class="flights-container ">
+                        <div class="w3-animate-right">
+                            <div class="row col-md-12 margin-bottom">
+                                <div class="title col-md-7">
+                                    <h3>book your flights</h3>
+                                </div>
+          
+                                <div class="flight-buttons col-md-5">
+                                    <button class="btn domestic active">domestic</button>
+                                    <button class="btn international">international</button>
+                                </div>
+                            </div>
+          
+                            <div class="row col-md-12 margin-bottom">
+                                <div class="col-md-6">
+                                    <label for="from">from</label>
+                                    <input type="text" name="from" placeholder="Eg. Melbourne, Australia">
+                                </div>
+          
+                                <div class="col-md-6">
+                                    <label for="to">to</label>
+                                    <input type="text" name="to" placeholder="Eg. New York, United States">
+                                </div>
+                            </div>
+          
+                            <div class="row col-md-12 margin-bottom">
+                                <div class="col-md-5">
+                                    <label for="departure">departure</label>
+                                    <input type="date" name="departure">
+                                </div>
+          
+                                <div class="col-md-5">
+                                    <label for="return">return</label>
+                                    <input type="date" name="return">
+                                </div>
+          
+                                <div class="col-md-2">
+                                    <label for="adults">adults</label>
+                                    <input type="text" name="adults" placeholder="2">
+                                </div>
+                            </div>
+          
+                            <div class="clearfix"></div>
+          
+                            <div class="row col-md-12 margin-bottom">
+                                <div class="row col-md-8 sflights">
+                                    <div class="col-md-9">
+                                        <button class="search-flights">search flights</button>
+                                    </div>
+                                </div>
+          
+                                <div class="row col-md-5 asearch">
+                                    <div class="col-md-9 advanced-search">
+                                        <a href="#">advanced search</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+        </mat-tab>
+        
+        <mat-tab>
+            <ng-template mat-tab-label>
+            <mat-icon class="example-tab-icon"><i class="fas fa-building"></i></mat-icon>
+            hotels
+            </ng-template>
+            <div class="tabContent">
+                    <h3>Hotels</h3>
+                    <p>Please book here</p>
+                </div>  
+        </mat-tab>
+        
+        <mat-tab>
+            <ng-template mat-tab-label>
+            flights And Hotels <span>save</span>
+            </ng-template>
+        
+            <div class="tabContent">
+                    <h3>Flights and hotels</h3>
+                    <p>Please select your booking packages</p>
+                </div>  
+        </mat-tab>
+
+        <mat-tab>
+                <ng-template mat-tab-label>
+                <mat-icon class="example-tab-icon"><i class="fas fa-gift"></i></mat-icon>
+                holidays
+                </ng-template>
+            
+                <div class="tabContent">
+                    <h3>Holidays</h3>
+                    <p>Please book here</p>
+                </div>  
+            </mat-tab>
+    </mat-tab-group>
+    </div>
+</section>
+

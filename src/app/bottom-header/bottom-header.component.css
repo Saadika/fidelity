@@ -1,0 +1,44 @@
+.bottom-header {
+    color: #fff;
+    padding-top: 20px;
+}
+
+.bottom-header nav ul li .fa-plane {
+    transform: rotate(320deg);
+    padding-right: 0;
+    margin-right: 10px;
+}
+
+.right-bottom-nav {
+    margin-top: 16px;
+}
+
+.right-bottom-nav ul li {
+    padding: 9px 12px;
+}
+
+.logo {
+    text-transform: lowercase;
+    font-size: 40px;
+}
+
+.right-bottom-nav i {
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.right-bottom-nav i.fa-phone {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.navbar {
+    display: none;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
